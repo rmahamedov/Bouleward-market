@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background: #151515;
+}
+.container {
+    max-width: 1125px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* HEADER START */
+
+.header {
+    background: url('../images/Header.png') no-repeat center center /cover;
+    height: 100%;
+}
+.header-bg {
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.content-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-img {
+    margin: 6px 0;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+.nav-ul {
+    display: flex;
+}
+.nav-title {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat-B';
+    margin-left: 30px;
+}
+.nav-icon {
+    margin-left: 25px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.header-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.header-title {
+    color: #FFFFFF;
+    line-height: 75px;
+    font-size: 100px;
+    font-family: 'ProstoOne-R';
+    margin-bottom: 51px;
+}
+.title-link {
+    color: #171718;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-size: 20px;
+    font-family: 'Montserrat-M';
+    padding: 13px 14px;
+    background: #FFFFFF;
+    border-radius: 10px;;
+}
+.icon-link {
+    margin-left: 11px;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+.main-box1 {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    align-items: center;
+}
+.main-img1 {
+    margin-left: 30px;
+}
+.box-description {
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'Montserrat-M';
+}
+.main-box2 {
+    display: flex;
+    align-items: center;
+} 
+.main-img2 {
+    margin-right: 87px;
+}
+.main-box3 {
+    display: flex;
+    margin: 50px 0;
+    align-items: center;
+}
+.box-description2 {
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat-B';
+    position: relative;
+
+}
+.box-description3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat-B';
+    position: relative;
+    
+}
+.img-position {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.main-img3 {
+    margin: 0 88px;
+}
+.img-position::before {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    position: absolute;
+    left: 20px;
+}
+.img-position::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    position: absolute;
+    right: 20px;
+}
+.main-block {
+    display: flex;
+}
+.main-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.main-card {
+    margin-top: 79px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    max-width: 255px;
+    width: 100%;
+    margin-bottom: 55px;
+    padding: 15px 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-title {
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat-B';
+    margin: 15px 0 10px 0;
+}
+.card-description {
+    color: #000000;
+    line-height: 17px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat-R';
+    margin: 10px 0 20px 0;
+}
+.card-link {
+    background: #151515;
+    padding: 7px 57px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat-B';
+}
+
+/* MAIN END */
+
+/* FOOTER START */
+
+.footer {
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-link {
+    display: flex;
+}
+.footer-logo {
+    margin: 81px 0;
+}
+.footer-title {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat-B';
+    margin-right: 30px;
+}
+.footer-icon {
+    color: #FFFFFF;
+    font-size: 70px;
+    margin-left: 30px;
+}
